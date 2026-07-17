@@ -1081,6 +1081,11 @@ split
         vars.Log("guy: " + current.bossName);
         return vars.CheckSplit("boss__" + current.bossName, "");
     }
+
+	if (current.activeMap != old.activeMap && current.activeMap == "game/dlc/m15_hub/m15_hub") {
+		vars.Log("Split on entering Purgatory");
+        return true;
+    }
 }
 
 reset
