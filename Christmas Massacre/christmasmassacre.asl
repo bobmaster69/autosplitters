@@ -57,7 +57,7 @@ split
         if (current.activeScene == "19 Approach Theater" && current.loadingScene == "20 Theater") return true;
         if (current.activeScene == "20 Theater" && current.loadingScene == "21 Larry's House 5") return true;
         if (current.activeScene == "21 Larry's House 5" && current.loadingScene == "22 Morgue") return true;
-        if (current.activeScene == "22 Larry's House 6" && current.loadingScene == "24 Catholic School Outside 0") return true;
+        if (current.activeScene == "23 Larry's House 6" && current.loadingScene == "24 Catholic School Outside 0") return true;
         if (current.activeScene == "24 Catholic School Outside 0" && current.loadingScene == "25 Catholic School Return 1") return true;
         if (current.activeScene == "25 Catholic School Return 1" && current.loadingScene == "26 Catholic School Return 2") return true;
         if (current.activeScene == "26 Catholic School Return 2" && current.loadingScene == "27 Catholic School Return 3") return true;
